@@ -24,4 +24,4 @@ jobs:
 
       - name: Push Docker image
         run: |
-          docker push mydockerhubusername/mern-backend:latest
+          docker push sumail829/mern-backend:latest
