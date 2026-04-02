@@ -1,0 +1,11 @@
+on:
+  push:
+    branches:
+      - main
+
+
+jobs:
+  Build-Node-Artifacts:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hello gihub actions"
