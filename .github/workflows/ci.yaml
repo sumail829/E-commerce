@@ -20,7 +20,7 @@ jobs:
           password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
       - name: Build Docker image
         run: |
-          docker build -t sumail829/mern-backend:latest .
+          docker build -f backend/Dockerfile -t sumail829/mern-backend:latest .
 
       - name: Push Docker image
         run: |
